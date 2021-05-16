@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url('img/bg.jpg'); */
+    background-image: url(https://i.ytimg.com/vi/Qi-pEsnoHFw/maxresdefault.jpg);
+    color: white;
+}
+
+body background-image {
+    opacity: 50%;
+    /* width: 1000px; */
+    /* height: 2000px; */
+}
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    position: sticky;
+    left: 5%;
+    top: 18%;
+}
+
+.left img {
+    width: 60px;
+    height: auto;
+    /* padding: 0px 0px 0px 0px; */
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 12%;
+    top: 1%;
+
+}
+
+.navbar {
+    list-style-type: none;
+    display: inline-block;
+    position: sticky;
+    cursor: pointer;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: 'Zen Dots', cursive;
+}
+
+ul li:hover {
+    background-color: rgb(238, 164, 135);
+    /* font-color: black; */
+    /* border: 5px double rgba(236, 118, 142, 0.842); */
+    border: 5px solid crimson;
+    border-radius: 25%;
+    zoom: 90%;
+    font-style: bold;
+}
+
+ul li:visited {
+    background-color: cyan;
+    color: black;
+    border: 5px double crimson;
+    border-radius: 10%;
+    /* zoom: 90%; */
+}
+
+.container {
+    /* border: 4px solid antiquewhite; */
+    border-radius: 10px;
+    margin: 15px 2px 2px 215px; 
+    padding: 2px 2px 2px 2px; 
+    width: 35%;
+    display: block;
+    /* opacity: 100%; */
+}
+
+.container form input {
+    display: block;
+    width: 90%;
+    margin: 16px auto;
+    border-radius: 12px;
+    opacity: 180%;
+    padding: 2px;
+    font-weight: 400;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    /* background-color: rgba(255, 231, 196, 0.24); */
+
+}
+
+h2 {
+    display: block;
+    
+    width: fit-content;
+    margin: 10px auto;
+    font-family: 'Zen Dots', cursive;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: rgba(255, 231, 196, 0.34);
+    font-family: 'Karantina', cursive;
+}
+
+.btn:active {
+    zoom: 125%;
+    color: blueviolet;
+}
+
+.smimg {
+    display: block;
+    width: 350px;
+    height: 200px;
+    /* margin: 2px auto; */
+    position: absolute;
+    right: 11%;
+    top: 23%;
+    border-radius: 20px;
+}
+
+.header {
+    position: sticky;
+}
